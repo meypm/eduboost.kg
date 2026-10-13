@@ -1,0 +1,42 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="24" y1="18" x2="156" y2="160" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#08C5FF"/>
+      <stop offset="0.48" stop-color="#0B63F6"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="58" y1="65" x2="137" y2="122" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#DDEBFF"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="180" height="180" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#0B63F6" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect x="18" y="18" width="144" height="144" rx="42" fill="url(#g1)" filter="url(#shadow)"/>
+
+  <!-- Digital pixels -->
+  <rect x="42" y="39" width="10" height="10" rx="3" fill="white" opacity="0.86"/>
+  <rect x="57" y="39" width="7" height="7" rx="2" fill="white" opacity="0.58"/>
+  <rect x="130" y="128" width="9" height="9" rx="3" fill="white" opacity="0.72"/>
+  <rect x="142" y="117" width="6" height="6" rx="2" fill="white" opacity="0.52"/>
+
+  <!-- Open book -->
+  <path d="M45 66C45 60.477 49.477 56 55 56H83C89.075 56 94 60.925 94 67V125C94 128.314 91.314 131 88 131H58C50.82 131 45 125.18 45 118V66Z" fill="url(#g2)" opacity="0.97"/>
+  <path d="M135 66C135 60.477 130.523 56 125 56H97C90.925 56 86 60.925 86 67V125C86 128.314 88.686 131 92 131H122C129.18 131 135 125.18 135 118V66Z" fill="url(#g2)" opacity="0.97"/>
+  <path d="M90 67V131" stroke="#0B63F6" stroke-width="5" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- E letter lines -->
+  <path d="M61 75H79" stroke="#0B63F6" stroke-width="7" stroke-linecap="round"/>
+  <path d="M61 91H76" stroke="#0B63F6" stroke-width="7" stroke-linecap="round"/>
+  <path d="M61 107H80" stroke="#0B63F6" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Growth arrow / Boost -->
+  <path d="M101 111L113 99L122 106L137 86" stroke="#7C3AED" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M126 86H137V97" stroke="#7C3AED" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- B symbol circle -->
+  <circle cx="106" cy="76" r="10" fill="#0B63F6"/>
+  <path d="M104 70H109C113 70 116 72.4 116 76C116 79.6 113 82 109 82H104V70Z" fill="white"/>
+</svg>
